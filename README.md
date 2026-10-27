@@ -47,6 +47,7 @@ Este proyecto consiste en una aplicación web interactiva inspirada en *Alicia e
 ## 🧪 Casos de Prueba (5 por Ejercicio)
 
 ### Ejercicio 1: La Poción Mágica
+#### Prueba 1
 ![Captura Ejercicio 1](img/ejercicio1-prueba1.png)
 ![Captura Ejercicio 1](img/ejercicio1-prueba2.png)
 ![Captura Ejercicio 1](img/ejercicio1-prueba3.png)
