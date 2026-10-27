@@ -49,21 +49,35 @@ Este proyecto consiste en una aplicación web interactiva inspirada en *Alicia e
 ### Ejercicio 1: La Poción Mágica
 #### Prueba 1
 ![Captura Ejercicio 1](img/ejercicio1-prueba1.png)
+#### Prueba 2
 ![Captura Ejercicio 1](img/ejercicio1-prueba2.png)
+#### Prueba 3
 ![Captura Ejercicio 1](img/ejercicio1-prueba3.png)
+#### Prueba 4
 ![Captura Ejercicio 1](img/ejercicio1-prueba4.png)
+#### Prueba 5
 ![Captura Ejercicio 1](img/ejercicio1-prueba5.png)
 ### Ejercicio 2: La Merienda del Sombrerero Loco
+#### Prueba 1
 ![Captura Ejercicio 2](img/ejercicio2-prueba1.png)
+#### Prueba 2
 ![Captura Ejercicio 2](img/ejercicio2-prueba2.png)
+#### Prueba 3
 ![Captura Ejercicio 2](img/ejercicio2-prueba3.png)
+#### Prueba 4
 ![Captura Ejercicio 2](img/ejercicio2-prueba4.png)
+#### Prueba 5
 ![Captura Ejercicio 2](img/ejercicio2-prueba5.png)
 ### Ejercicio 3: El Desafío de la Reina de Corazones
+#### Prueba 1
 ![Captura Ejercicio 3](img/ejercicio3-prueba1.png)
+#### Prueba 2
 ![Captura Ejercicio 3](img/ejercicio3-prueba2.png)
+#### Prueba 3
 ![Captura Ejercicio 3](img/ejercicio3-prueba3.png)
+#### Prueba 4
 ![Captura Ejercicio 3](img/ejercicio3-prueba4.png)
+#### Prueba 5
 ![Captura Ejercicio 3](img/ejercicio3-prueba5.png)
 
 ## 🚨 Errores Frecuentes Identificados y Soluciones
