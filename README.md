@@ -44,48 +44,26 @@ Este proyecto consiste en una aplicación web interactiva inspirada en *Alicia e
 
 ---
 
-## 🧪 Tabla de Casos de Prueba (5 por Ejercicio)
+## 🧪 Casos de Prueba (5 por Ejercicio)
 
 ### Ejercicio 1: La Poción Mágica
-| # | Entrada (Altura, Poción) | Resultado Esperado | Resultado Obtenido | Estado |
-|---|---------------------------|--------------------|--------------------|--------|
 ![Captura Ejercicio 1](img/ejercicio1-prueba1.png)
 ![Captura Ejercicio 1](img/ejercicio1-prueba2.png)
 ![Captura Ejercicio 1](img/ejercicio1-prueba3.png)
 ![Captura Ejercicio 1](img/ejercicio1-prueba4.png)
 ![Captura Ejercicio 1](img/ejercicio1-prueba5.png)
-
+### Ejercicio 2: La Merienda del Sombrerero Loco
 ![Captura Ejercicio 2](img/ejercicio2-prueba1.png)
 ![Captura Ejercicio 2](img/ejercicio2-prueba2.png)
 ![Captura Ejercicio 2](img/ejercicio2-prueba3.png)
 ![Captura Ejercicio 2](img/ejercicio2-prueba4.png)
 ![Captura Ejercicio 2](img/ejercicio2-prueba5.png)
-
+### Ejercicio 3: El Desafío de la Reina de Corazones
 ![Captura Ejercicio 3](img/ejercicio3-prueba1.png)
 ![Captura Ejercicio 3](img/ejercicio3-prueba2.png)
 ![Captura Ejercicio 3](img/ejercicio3-prueba3.png)
 ![Captura Ejercicio 3](img/ejercicio3-prueba4.png)
 ![Captura Ejercicio 3](img/ejercicio3-prueba5.png)
-
-### Ejercicio 2: La Merienda del Sombrerero Loco
-| # | Entrada (Nombre, Bebida, Tazas) | Resultado Esperado | Resultado Obtenido | Estado |
-|---|----------------------------------|--------------------|--------------------|--------|
-| 1 | Nombre: Alicia, Té, Tazas: 2    | Total: $6.00 (Sin descuento) | Subtotal: $6.00, Descuento: $0.00, Total: $6.00 | Correcto |
-| 2 | Nombre: Sombrerero, Jugo, Tazas: 4 | Subtotal: $20.00, Desc (10%): $2.00, Total: $18.00 | Subtotal: $20.00, Descuento: $2.00, Total: $18.00 | Correcto |
-| 3 | Nombre: "", Té, Tazas: 2        | Error: Ingrese el nombre del invitado. | Error: Ingrese el nombre del invitado. | Validado |
-| 4 | Nombre: Lirón, Bebida: "", Tazas: 3 | Error: Debe seleccionar una bebida. | Error: Debe seleccionar un tipo de bebida. | Validado |
-| 5 | Nombre: Alicia, Café, Tazas: 25 | Error: Tazas debe ser entre 1 y 20. | Error: Ingrese un número entero de tazas válido... | Validado |
-
-### Ejercicio 3: El Desafío de la Reina de Corazones
-| # | Entrada (N° Cartas) | Resultado Esperado | Resultado Obtenido | Estado |
-|---|---------------------|--------------------|--------------------|--------|
-| 1 | Cartas: 4 | Pares: 2 (Suma: 6), Impares: 2 (Suma: 4). Gana Pares. | Pares: 2 (Suma: 6) \| Impares: 2 (Suma: 4). Veredicto: Pares. | Correcto |
-| 2 | Cartas: 3 | Pares: 1 (Suma: 2), Impares: 2 (Suma: 4). Gana Impares. | Pares: 1 (Suma: 2) \| Impares: 2 (Suma: 4). Veredicto: Impares. | Correcto |
-| 3 | Cartas: 0 | Error: Ingrese valor entre 1 y 50. | Error: Por favor ingrese un entero positivo entre 1 y 50... | Validado |
-| 4 | Cartas: 60 | Error: Excede límite máximo (50). | Error: Por favor ingrese un entero positivo entre 1 y 50... | Validado |
-| 5 | Cartas: -5 | Error: Número no válido. | Error: Por favor ingrese un entero positivo entre 1 y 50... | Validado |
-
----
 
 ## 🚨 Errores Frecuentes Identificados y Soluciones
 
