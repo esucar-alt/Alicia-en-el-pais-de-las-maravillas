@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alicia en el País de las Maravillas - Programación Web I</title>
+    <!-- Enlace al CSS principal -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+    <!-- Encabezado Principal -->
+    <header class="header-principal">
+        <div class="header-contenido">
+            <h1 class="titulo-pagina">Alicia en el País de las Maravillas</h1>
+            <p class="subtitulo-autor">Por: EDILSON BEIMAR SUCA ROMAN</p>
+            <p class="tagline">Programación Web I | Formularios HTML, CSS y JavaScript</p>
+        </div>
+
+        <!-- Barra de Navegación Estilo Pestañas -->
+        <nav class="navbar">
+            <a href="#ejercicio1" id="nav-ej1" class="active" onclick="mostrarSeccion('ejercicio1')">1. La Poción
+                Mágica</a>
+            <a href="#ejercicio2" id="nav-ej2" onclick="mostrarSeccion('ejercicio2')">2. La Merienda del Sombrerero</a>
+            <a href="#ejercicio3" id="nav-ej3" onclick="mostrarSeccion('ejercicio3')">3. Desafío de la Reina</a>
+        </nav>
+    </header>
+
+    <!-- Contenido Principal -->
+    <main class="contenedor-principal">
+
+        <!-- EJERCICIO 1: La poción mágica -->
+        <section id="ejercicio1" class="seccion-ejercicio">
+            <div class="encabezado-seccion">
+                <h2>Ejercicio 1: La Poción Mágica de Alicia</h2>
+            </div>
+
+            <div class="descripcion-problema">
+                <p><strong>Regla Mágica:</strong> Cada mililitro (ml) consumido reduce la altura de Alicia a la mitad de
+                    los ml ingeridos.</p>
+                <p><em>Fórmula:</em> Nueva Altura = Altura Inicial - (Poción en ml * 0.5) | <em>Puerta fija:</em> 30 cm.
+                </p>
+            </div>
+
+            <form id="form-ejercicio1" class="formulario-estilizado">
+                <div class="grupo-campo">
+                    <label for="altura-inicial">Altura inicial de Alicia (cm):</label>
+                    <input type="number" id="altura-inicial" name="altura-inicial" placeholder="Ej. 120" step="any">
+                </div>
+
+                <div class="grupo-campo">
+                    <label for="cantidad-pocion">Cantidad de poción (ml, máx 200):</label>
+                    <input type="number" id="cantidad-pocion" name="cantidad-pocion" placeholder="Ej. 50" step="any">
+                </div>
+
+                <button type="submit" class="btn-enviar">Procesar Poción</button>
+            </form>
+
+            <div id="resultado-ej1" class="caja-resultado" style="display: none;"></div>
+        </section>
+
+        <!-- EJERCICIO 2: La merienda del Sombrerero Loco -->
+        <section id="ejercicio2" class="seccion-ejercicio" style="display: none;">
+            <div class="encabezado-seccion">
+                <h2>Ejercicio 2: La Merienda del Sombrerero Loco</h2>
+            </div>
+
+            <div class="descripcion-problema">
+                <p>Selecciona tu bebida e indica las tazas que deseas consumir.</p>
+                <p><strong>Descuento Especial:</strong> Si la cuenta supera los $15.00, se aplicará un 10% de descuento
+                    automáticamente.</p>
+            </div>
+
+            <form id="form-ejercicio2" class="formulario-estilizado">
+                <div class="grupo-campo">
+                    <label for="nombre-invitado">Nombre del invitado:</label>
+                    <input type="text" id="nombre-invitado" name="nombre-invitado" placeholder="Ej. Alicia">
+                </div>
+
+                <div class="grupo-campo">
+                    <label for="tipo-bebida">Bebida disponible:</label>
+                    <select id="tipo-bebida" name="tipo-bebida">
+                        <option value="">-- Seleccione una bebida --</option>
+                        <option value="te-maravillas">Té de las Maravillas ($3.00 c/u)</option>
+                        <option value="cafe-sombrerero">Café del Sombrerero ($4.50 c/u)</option>
+                        <option value="infusion-lirion">Infusión de Lirón ($2.50 c/u)</option>
+                        <option value="jugo-oruga">Jugo Mágico de la Oruga ($5.00 c/u)</option>
+                    </select>
+                </div>
+
+                <div class="grupo-campo">
+                    <label for="cantidad-tazas">Cantidad de tazas (Máx. 20):</label>
+                    <input type="number" id="cantidad-tazas" name="cantidad-tazas" placeholder="Ej. 4">
+                </div>
+
+                <button type="submit" class="btn-enviar">Calcular Cuenta</button>
+            </form>
+
+            <div id="resultado-ej2" class="caja-resultado" style="display: none;"></div>
+        </section>
+
+        <!-- EJERCICIO 3: El desafío de la Reina de Corazones -->
+        <section id="ejercicio3" class="seccion-ejercicio" style="display: none;">
+            <div class="encabezado-seccion">
+                <h2>Ejercicio 3: El Desafío de la Reina de Corazones</h2>
+            </div>
+
+            <div class="descripcion-problema">
+                <p>Ingresa la cantidad de cartas para evaluar la secuencia del 1 al total ingresado.</p>
+                <p>El sistema calculará las sumas de cartas pares e impares y dará el veredicto de la Reina.</p>
+            </div>
+
+            <form id="form-ejercicio3" class="formulario-estilizado">
+                <div class="grupo-campo">
+                    <label for="cantidad-cartas">Número de cartas a analizar (Límite: 50):</label>
+                    <input type="number" id="cantidad-cartas" name="cantidad-cartas" placeholder="Ej. 10">
+                </div>
+
+                <button type="submit" class="btn-enviar">Analizar Cartas</button>
+            </form>
+
+            <div id="resultado-ej3" class="caja-resultado" style="display: none;"></div>
+        </section>
+
+    </main>
+
+    <!-- Pie de Página (Footer) -->
+    <footer class="footer-principal">
+        <p><strong>Alicia en el País de las Maravillas</strong> — Actividad Práctica de JavaScript</p>
+        <p>Desarrollado por: <strong>EDILSON BEIMAR SUCA ROMAN</strong></p>
+        <p class="copyright">&copy; Programación Web I - Todos los derechos reservados.</p>
+    </footer>
+
+    <!-- Carga de Scripts JS -->
+    <script src="js/navegacion.js"></script>
+    <script src="js/ejercicio1.js"></script>
+    <script src="js/ejercicio2.js"></script>
+    <script src="js/ejercicio3.js"></script>
+</body>
+
+</html>

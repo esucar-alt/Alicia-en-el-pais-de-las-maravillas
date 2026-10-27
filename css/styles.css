@@ -1,0 +1,241 @@
+/* ===================================================
+   ESTILOS GENERALES Y TEMÁTICA
+   =================================================== */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f2efe9;
+    color: #2b2b2b;
+    margin: 0;
+    padding: 0;
+}
+
+/* ===================================================
+   HEADER MODERNO Y AMPLIO
+   =================================================== */
+.header-principal {
+    background: #1c2541;
+    /* Fondo sobrio y profundo */
+    background: linear-gradient(135deg, #1c2541 0%, #0b132b 50%, #3a506b 100%);
+    color: #ffffff;
+    padding-top: 35px;
+    border-bottom: 5px solid #d4af37;
+    /* Detalle en oro */
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+.header-contenido {
+    text-align: center;
+    padding-bottom: 25px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.titulo-pagina {
+    margin: 0 0 8px 0;
+    font-size: 32px;
+    color: #ffd700;
+    /* Oro vibrante */
+    text-shadow: 1px 2px 4px rgba(0, 0, 0, 0.6);
+    letter-spacing: 1px;
+}
+
+.subtitulo-autor {
+    margin: 0 0 5px 0;
+    font-size: 18px;
+    font-weight: bold;
+    color: #e0e1dd;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.tagline {
+    margin: 0;
+    font-size: 14px;
+    color: #4ea8de;
+}
+
+/* ===================================================
+   BARRA DE NAVEGACIÓN (HEADER)
+   =================================================== */
+.navbar {
+    background-color: rgba(0, 0, 0, 0.3);
+    text-align: center;
+    overflow: hidden;
+    padding: 5px 0 0 0;
+}
+
+.navbar a {
+    display: inline-block;
+    color: #e0e1dd;
+    text-decoration: none;
+    padding: 12px 24px;
+    font-size: 15px;
+    font-weight: bold;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    margin: 0 3px;
+}
+
+.navbar a:hover {
+    background-color: rgba(255, 255, 255, 0.15);
+    color: #ffffff;
+}
+
+.navbar a.active {
+    background-color: #f2efe9;
+    color: #800020;
+    /* Color guindo alicia */
+    border-top: 3px solid #d4af37;
+}
+
+/* ===================================================
+   CONTENEDOR Y TARJETAS
+   =================================================== */
+.contenedor-principal {
+    width: 90%;
+    max-width: 850px;
+    margin: 30px auto;
+}
+
+.seccion-ejercicio {
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 30px;
+    border: 1px solid #e0dcd3;
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.06);
+}
+
+.encabezado-seccion h2 {
+    color: #800020;
+    margin-top: 0;
+    margin-bottom: 15px;
+    font-size: 22px;
+    border-bottom: 2px solid #e0dcd3;
+    padding-bottom: 10px;
+}
+
+.descripcion-problema {
+    background-color: #f0f7f7;
+    border-left: 5px solid #2b7a78;
+    padding: 12px 18px;
+    margin-bottom: 25px;
+    border-radius: 0 6px 6px 0;
+}
+
+.descripcion-problema p {
+    margin: 5px 0;
+    font-size: 14px;
+    color: #333333;
+}
+
+/* ===================================================
+   FORMULARIOS MODERNOS
+   =================================================== */
+.grupo-campo {
+    margin-bottom: 20px;
+}
+
+.grupo-campo label {
+    display: block;
+    font-weight: 600;
+    margin-bottom: 8px;
+    color: #1c2541;
+    font-size: 14px;
+}
+
+.grupo-campo input[type="text"],
+.grupo-campo input[type="number"],
+.grupo-campo select {
+    width: 100%;
+    box-sizing: border-border-box;
+    /* Previene desbordamiento de inputs */
+    padding: 10px 12px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    background-color: #fafafa;
+}
+
+.grupo-campo input:focus,
+.grupo-campo select:focus {
+    border-color: #2b7a78;
+    outline: none;
+    background-color: #ffffff;
+}
+
+.btn-enviar {
+    background-color: #800020;
+    color: #ffffff;
+    border: none;
+    padding: 12px 28px;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 6px;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.2);
+}
+
+.btn-enviar:hover {
+    background-color: #a00028;
+}
+
+.btn-enviar:active {
+    background-color: #600018;
+}
+
+/* ===================================================
+   CAJAS DE RESULTADOS
+   =================================================== */
+.caja-resultado {
+    margin-top: 25px;
+    padding: 18px;
+    border-radius: 6px;
+    font-size: 15px;
+    line-height: 1.6;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+.exito {
+    background-color: #e8f5e9;
+    border: 1px solid #c8e6c9;
+    color: #1b5e20;
+}
+
+.alerta {
+    background-color: #fffde7;
+    border: 1px solid #fff9c4;
+    color: #f57f17;
+}
+
+.error {
+    background-color: #ffebee;
+    border: 1px solid #ffcdd2;
+    color: #b71c1c;
+}
+
+/* ===================================================
+   FOOTER (PIE DE PÁGINA)
+   =================================================== */
+.footer-principal {
+    background-color: #0b132b;
+    color: #a0aab2;
+    text-align: center;
+    padding: 25px 15px;
+    margin-top: 50px;
+    border-top: 3px solid #800020;
+    font-size: 14px;
+}
+
+.footer-principal p {
+    margin: 6px 0;
+}
+
+.footer-principal strong {
+    color: #ffffff;
+}
+
+.footer-principal .copyright {
+    font-size: 12px;
+    color: #6c757d;
+    margin-top: 12px;
+}
