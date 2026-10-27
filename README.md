@@ -7,8 +7,8 @@
 
 ## 🔗 Enlaces Obligatorios de Entrega
 
-* 🌐 **Página Web Publicada:** `https://esucar-alt.github.io/Alicia-en-el-pais-de-las-maravillas/`
-* 📁 **Repositorio Git:** `[PEGA_AQUÍ_TU_ENLACE_DEL_REPOSITO_GITHUB]`
+* 🌐 **Página Web Publicada:** https://esucar-alt.github.io/Alicia-en-el-pais-de-las-maravillas/
+* 📁 **Repositorio Git:** https://github.com/esucar-alt/Alicia-en-el-pais-de-las-maravillas.git
 * 🎥 **Video Explicativo (≤ 3 min):** `[PEGA_AQUÍ_TU_ENLACE_DE_DRIVE_O_YOUTUBE]`
 
 ---
