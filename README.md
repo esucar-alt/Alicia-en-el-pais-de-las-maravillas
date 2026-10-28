@@ -9,7 +9,7 @@
 
 * 🌐 **Página Web Publicada:** https://esucar-alt.github.io/Alicia-en-el-pais-de-las-maravillas/
 * 📁 **Repositorio Git:** https://github.com/esucar-alt/Alicia-en-el-pais-de-las-maravillas.git
-* 🎥 **Video Explicativo (≤ 3 min):** `[PEGA_AQUÍ_TU_ENLACE_DE_DRIVE_O_YOUTUBE]`
+* 🎥 **Video Explicativo (≤ 3 min):** https://drive.google.com/drive/folders/13wU6kno71qCITPB7R-2jlT4U9uhygC7l?usp=sharing
 
 ---
 
@@ -91,29 +91,3 @@ Este proyecto consiste en una aplicación web interactiva inspirada en *Alicia e
 3. **Selección de pestañas sin ocultar secciones previas:**
    * *Causa:* Falta de manipulación del atributo CSS `display`.
    * *Solución:* Iterar sobre los contenedores en `navegacion.js` para ocultar con `display = 'none'` los no seleccionados.
-
----
-
-## 🎬 Guion Orientativo del Video Explicativo (3 Minutos)
-
-* **`0:00 - 0:20` | Presentación:**
-  * *"Hola, mi nombre es EDILSON BEIMAR SUCA ROMAN. Presento la práctica de Alicia en el País de las Maravillas para Programación Web I."*
-  * Mostrar el header, los datos del autor y la navegación entre las tres pestañas.
-* **`0:20 - 1:45` | Demostración Práctica:**
-  * **Ejercicio 1:** Probar con altura 120 cm y 180 ml de poción (muestra que sí pasa la puerta de 30 cm).
-  * **Ejercicio 2:** Ingresar "Sombrerero", elegir Jugo ($5.00) y 4 tazas. Mostrar cómo aplica el descuento del 10% por superar $15.
-  * **Ejercicio 3:** Ingresar 4 cartas. Mostrar la secuencia [1, 2, 3, 4] y la comparación de sumas entre pares e impares.
-* **`1:45 - 2:40` | Explicación del Código:**
-  * Abrir el editor de código y mostrar el uso de `preventDefault()`, `getElementById()`, `if/else`, `switch` y el bucle `for`.
-* **`2:40 - 3:00` | Cierre:**
-  * Mostrar las validaciones probando un campo vacío o un valor inválido y mencionar la ubicación del repositorio en GitHub.
-
----
-
-## 📋 Formato de Entrega Final
-
-* **Nombre del estudiante:** EDILSON BEIMAR SUCA ROMAN
-* **Enlace de la página publicada:** `[PEGA_AQUÍ_TU_ENLACE_DE_GITHUB_PAGES]`
-* **Enlace del repositorio Git:** `[PEGA_AQUÍ_TU_ENLACE_DEL_REPOSITO_GITHUB]`
-* **Enlace del video (máximo 3 minutos):** `[PEGA_AQUÍ_TU_ENLACE_DEL_VIDEO]`
-* **Fecha de entrega:** `[AGREGA_LA_FECHA_DE_HOY]`
